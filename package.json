@@ -14,6 +14,8 @@
     "description": "An all-in-one TS package to preprocess streamed LaTeX of any delimiter, currency, and paragraph text for rendering",
     "keywords": [
         "latex",
+        "preprocessor for llm streaming",
+        "llm streaming",
         "streamdown",
         "tex",
         "latex rendering",
