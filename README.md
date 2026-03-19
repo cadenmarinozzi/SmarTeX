@@ -2,8 +2,9 @@
 
 An all-in-one TS package to preprocess streamed LaTeX of any delimiter, currency, and paragraph text for rendering
 
+<p align="center">
 <img src="assets/example.jpg" alt="Example of SmarTeX in action" width="600"/>
-
+</p>
 ## Who is this for
 
 Anyone who has wanted to render LaTex, currency, and prose (all of which are typical in LLM responses), but has faced issues with rendering due to the lack of a comprehensive solution that can handle all three seamlessly.
