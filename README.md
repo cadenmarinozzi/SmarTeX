@@ -22,6 +22,18 @@ const processed = preprocessLatex(latex);
 console.log(processed);
 ```
 
+or, if using Streamdown/another streaming markdown parser:
+
+```tsx
+import { Streamdown } from 'streamdown';
+import preprocessLatex from 'smartex';
+
+const latex = 'The price is $100 and the equation is \\(E=mc^2\\).';
+const processed = preprocessLatex(latex);
+
+<Streamdown>{processed}<Streamdown>;
+```
+
 ## License
 
 MIT License
